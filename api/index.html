@@ -1,0 +1,34 @@
+<html>
+
+<head>
+
+<script>
+
+
+referencepath="./bower_components/spotify-web-api-js/src/typings/spotify-web-api.d.ts./node_modules/spotify-web-api-js/src/typings/spotify-web-api.d.ts./.cache/bower/packages/5b4799a543006c29c2fb468cc5f0dc43/0.23.0/src/typings/spotify-web-api.d.ts"
+
+let spotify = new SpotifyWebApi();
+
+var spotifyApi = new SpotifyWebApi();
+
+spotifyApi.getArtistAlbums('43ZHCT0cAZBISjO8DG9PnE', { limit: 10, offset: 20 }, function(err, data) {
+  if (err) {
+    console.error('Something went wrong!');
+  } else {
+    console.log(data.body);
+  }
+});
+
+getArtistAlbums.print();
+
+
+
+
+
+</script>
+</head>
+<body>
+
+
+</body>
+</html>
